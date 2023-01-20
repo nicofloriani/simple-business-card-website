@@ -1,0 +1,68 @@
+/****** GLOBAL STYLES ******/
+
+@charset "UTF-8";
+
+html,
+body {
+	margin: 0px;
+	background: url(symphony.png) repeat;
+	/* Background image from http://subtlepatterns.com/ */
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: DimGray;
+}
+
+#wrapper {
+	margin-top: 150px;
+}
+
+h1,
+h2 {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+
+/****** HEADER STYLES ******/
+
+.name {
+	color: Tomato;
+	margin-bottom: 0px;
+	border: 10px solid Tomato;
+	padding: 30px;
+	display: inline;
+}
+
+.position {
+	color: Salmon;
+	margin-top: 40px;
+	padding: 30px;
+}
+
+
+/****** CONTACT STYLES ******/
+
+.line-break {
+	border: 1px solid Grey;
+	margin: 30px auto;
+	width: 50%;
+}
+
+.phone-number {
+	color: DarkSeaGreen;
+}
+
+.e-mail {
+	color: DarkSeaGreen;
+	text-decoration: none;
+}
+
+
+/****** QUOTE STYLES ******/
+
+.quote {
+	font-style: italic;
+	font-size: 20px;
+	margin-top: 50px;
+	line-height: 30px;
+}
